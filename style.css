@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+header {
+  background-color: #899399;
+  width: 100%;
+  position: fixed; /* mayt7arekch */
+  z-index: 999; /* dimamenfou9 */
+  display: flex; /* l3anaser mta3 lheader ba7tha b3athhom */
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 190px; /*  l 15 men fou9 wo louta wo 250 men lajneb */
+}
+.logo {
+  text-decoration: none;
+  color: #1414fc;
+  text-transform: uppercase;
+  font-weight: 1000;
+  font-size: 1.5em;
+}
+.navigation a {
+  text-decoration: none;
+  color: #1414fc;
+  font-size: 1.1em;
+  font-weight: 500;
+  padding-left: 30px;
+}
+.navigation a:hover {
+  color: black;
+}
+
+section {
+  padding: 100px 190px;
+}
+.main {
+  width: 100%;
+
+  min-height: 100vh; /* y8ati i ecron */
+  display: flex;
+  align-items: center;
+  background: url(images/background.png) no-repeat;
+  background-size: cover; /* raka7 taswira */
+  background-position: center;
+  background-attachment: fixed;
+}
+.main h2 {
+  color: black;
+  font-size: 1.6em;
+  font-weight: 600;
+}
+.main h2 span {
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 3em;
+  color: #000;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.main h3 {
+  color: rgb(255, 255, 255);
+  font-size: 2em;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.main h4 {
+  color: rgb(255, 255, 255);
+  font-size: 1em;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.main-btn {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #238636;
+  font-size: 1.1em;
+  font-weight:600;
+  display: inline-block;
+  margin-top:20px;
+  padding:1em 2em;
+  margin-bottom: 30px;
+  letter-spacing:1px;
+  border-radius:1em;
+
+
+}
+.main-btn:hover{
+  background-color:#217732 ;
+  transform: scale(1.1);
+
+}
