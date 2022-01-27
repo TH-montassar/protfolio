@@ -7,7 +7,7 @@
   scroll-behavior: smooth;
 }
 header {
-  background-color: #899399;
+  background-color: #e4efe1;
   width: 100%;
   position: fixed; /* mayt7arekch */
   z-index: 999; /* dimamenfou9 */
@@ -15,13 +15,15 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 15px 190px; /*  l 15 men fou9 wo louta wo 250 men lajneb */
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
 }
 .logo {
   text-decoration: none;
   color: #1414fc;
   text-transform: uppercase;
   font-weight: 1000;
-  font-size: 1.5em;
+  margin: 10px 10px;
 }
 .navigation a {
   text-decoration: none;
@@ -78,18 +80,47 @@ section {
   text-decoration: none;
   background-color: #238636;
   font-size: 1.1em;
-  font-weight:600;
+  font-weight: 600;
   display: inline-block;
-  margin-top:20px;
-  padding:1em 2em;
+  margin-top: 20px;
+  padding: 1em 2em;
   margin-bottom: 30px;
-  letter-spacing:1px;
-  border-radius:1em;
-
-
+  letter-spacing: 1px;
+  border-radius: 1em;
+  transition: 0.7s ease;
 }
-.main-btn:hover{
-  background-color:#217732 ;
+.main-btn:hover {
+  background-color: #217732;
   transform: scale(1.1);
-
+}
+.social-icons a {
+  color: #fff;
+  font-size: 1.7em;
+  padding-right: 20px;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  color: #1414fc;
+  font-size: 2.6em;
+  font-weight: 800;
+  margin-bottom: 100px;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: raw;
+  flex-wrap: wrap; /* ki tt3aba lblassa yahbet louta  */
+}
+.card{
+  width: 18.79785em;
+  background-color: #fff;
+  box-shadow: 0 5px 30px rgba(1,1,1,30%); /* 1 tijeh thel lfou9* wella louta hh     2 /thel ymin wella yser ken  ysar 7ot -  3/ darja mt3 blurd*/
+  border-radius: 11px;
+  padding: 30px;
+  margin: 7px;
+  transition: 0.7s ease;
+}
+.card:hover{
+  transform: scale(1.1);
 }
